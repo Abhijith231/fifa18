@@ -39,7 +39,7 @@
   
   /* Add a red background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: darkblue;
     color: white;
   }
   
@@ -65,7 +65,7 @@
   
   /* Add a grey background color to dropdown links on hover */
   .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: blue;
   }
   
   /* Show the dropdown menu on hover */
@@ -101,7 +101,7 @@
   
   /* Add a background color on hover */
   .column a:hover {
-    background-color: #ddd;
+    background-color: blue;
   }
   
   /* Clear floats after the columns */

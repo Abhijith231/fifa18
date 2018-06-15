@@ -1,10 +1,11 @@
 body, html {
     height: 100%;
+    margin: 0px;
 }
 
 .bg { 
     /* The image used */
-    background-image: url("styleImages/back.jpg");
+    background-image: url("styleImages/WorldCupBackground.jpg");
 
     /* Full height */
     height: 100%; 
@@ -14,4 +15,32 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #cccccc;
+
+}
+
+.cup:hover {
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.cup {
+    position: relative;
+    background-image: url("styleImages/cup.png");
+    transition: transform .2s;
+    width: 227px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 30vh;
+    opacity: .85;
+}
+
+.navbar img {
+    float: left;
+    display: block;
+    align: center;
+    padding-top: 4px;
+    width: 34.05px;
+    height: 37.5px;
 }

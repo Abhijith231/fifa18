@@ -5,7 +5,7 @@ footer{
     display:flex;
     justify-content: space-around; 
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(17, 35, 63);
     font-family: Arial;
     position: fixed;
     bottom: 2vh;
