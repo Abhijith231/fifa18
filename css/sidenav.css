@@ -1,0 +1,29 @@
+.side {
+    background-image: url("styleImages/Side.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 496.1px;
+    height: 350.8px;
+
+
+    position: absolute;
+    left: -278px;
+    transition: 0.3s;
+    top: 30vh
+
+}
+
+.side:hover{
+    left: 0;
+}
+
+.side a{
+    color:white;
+    position: absolute;
+    top: 200px;
+    right: 150px;
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
