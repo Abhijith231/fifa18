@@ -39,8 +39,26 @@ body, html {
 .navbar img {
     float: left;
     display: block;
-    align: center;
     padding-top: 4px;
     width: 34.05px;
     height: 37.5px;
+}
+
+.mp {
+    width: 1200px;
+    height: 677px; 
+    display: block;
+
+    /* Center and scale the image nicely */
+
+    margin-left: auto ;
+    margin-right: auto ;
+
+}
+
+.bgmp {
+    background-color: #abacae;
+    bottom: 0px;
+    padding-top:20px;
+    padding-bottom: 20px;
 }

@@ -27,6 +27,23 @@ class team {
 }
 /* team class end here */
 
+/*venue class starts here*/
+
+class venue{
+
+}
+
+/* venue class ends here */
+/*
+________________________________________________________________________________________
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|                                                                                       |
+|_______________________________________________________________________________________|
+
+*/
 /* this is class for match */
 
 class match{
@@ -38,3 +55,16 @@ class match{
 }
 
 /* match class end here */
+
+/* group match class starts here*/
+
+class groupMatch {
+
+}
+/*group match class ends here */
+
+/*knock out class starts here */
+class knockOutMatch{
+
+}
+/*knock out class ends here */

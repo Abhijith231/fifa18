@@ -6,7 +6,6 @@
         <link rel="stylesheet" type="text/css" href="css/navstyle.css">
         <link rel="stylesheet" type="text/css" href="css/footstyle.css"> 
         <link rel="stylesheet" type="text/css" href="css/imagestyle.css"> 
-        <link rel="stylesheet" type="text/css" href="css/sidenav.css"> 
 
         <script src="/js/navscript.js"></script>
     </head>
@@ -14,8 +13,8 @@
         
         <div class="navbar" id="myTopnav">
             <img src="css/styleImages/cup.png" alt="WC'18" >
-            <a href="index.html" class="active" >Home</a>
-            <div class="dropdown">
+            <a href="index.html" >Home</a>
+            <div class="dropdown active">
                 <button class="dropbtn">Venue
                     <i class="fa fa-caret-down"></i>
                 </button>
@@ -105,19 +104,30 @@
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
 
-        <div class="bg">
-            <a href="venue.html">
-                <div class="side"></div>
-            </a>
-            <a href="shedule.html">
-                <div class="cup"></div>
-            </a>    
+        <div class="bgmp">
+            <img src="css/styleImages/map.jpg" alt="" usemap="#Map" class="mp"/>
+            <map name="Map" id="Map">
+                <area alt="Nizhny Novgorod Stadium" title="" href="#" shape="poly" coords="639,140,649,161,636,181,613,179,601,158,612,139" />
+                <area alt="Cosmos Arena" title="" href="#" shape="poly" coords="670,274,694,273,706,296,695,318,672,317,658,296" />
+                <area alt="Kazan Arena" title="" href="#" shape="poly" coords="757,149,781,149,793,170,782,190,757,191,745,170" />
+                <area alt="Central Stadium" title="" href="#" shape="poly" coords="965,131,988,133,1001,154,989,175,962,175,950,154" />
+                <area alt="Mordovia Arena" title="" href="#" shape="poly" coords="787,277,797,257,822,256,833,276,821,299,797,298" />
+                <area alt="Volgograd Arena" title="" href="#" shape="poly" coords="601,414,613,394,638,394,650,414,638,437,615,435" />
+                <area alt="Rostov Arena" title="" href="#" shape="poly" coords="533,487,558,487,574,509,561,531,533,532,519,509" />
+                <area alt="Fisht Stadium" title="" href="#" shape="poly" coords="571,589,598,587,610,610,601,633,571,635,558,611" />
+                <area alt="Luzhniki Stadium" title="" href="#" shape="poly" coords="536,208,561,207,576,229,563,253,535,251,521,229" />
+                <area alt="Spartak Stadium" title="" href="#" shape="poly" coords="448,210,475,210,489,231,477,255,448,253,435,229" />
+                <area alt="Krestovsky Stadium" title="" href="#" shape="poly" coords="305,67,330,67,342,88,330,110,305,109,293,87" />
+                <area alt="Kaliningrad Stadium" title="" href="#" shape="poly" coords="109,229,135,228,149,254,136,273,109,273,97,250" />
+            </map>
         </div>
-        
-        <div class="foot">
-            <a>See You Soon!!!</a>
+        <div id="Spartak" class="model">
+            <div class="model-content">
+                <header></header>
+                <p></p>
+                
+            </div>
         </div>
-        
+
     </body>
-        
-</html>
+</html>    

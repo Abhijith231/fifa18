@@ -17,13 +17,3 @@
 .side:hover{
     left: 0;
 }
-
-.side a{
-    color:white;
-    position: absolute;
-    top: 200px;
-    right: 150px;
-    background-color: black;
-    padding-left: 20px;
-    padding-right: 20px;
-}
