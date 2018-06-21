@@ -3,13 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <title>FIFA 18</title>
-        <link rel="stylesheet" type="text/css" href="css/navstyle.css">
-        <link rel="stylesheet" type="text/css" href="css/footstyle.css"> 
+        <link rel="stylesheet" type="text/css" href="css/modelstyle.css">
+        <link rel="stylesheet" type="text/css" href="css/navstyle.css"> 
         <link rel="stylesheet" type="text/css" href="css/imagestyle.css"> 
+        
 
-        <script src="/js/navscript.js"></script>
+        <script src="js/navscript.js"></script>
+        <script src="js/class.js"></script>
     </head>
-    <body> 
+    <body onload="intl();"> 
         
         <div class="navbar" id="myTopnav">
             <img src="css/styleImages/cup.png" alt="WC'18" >
@@ -107,7 +109,7 @@
         <div class="bgmp">
             <img src="css/styleImages/map.jpg" alt="" usemap="#Map" class="mp"/>
             <map name="Map" id="Map">
-                <area alt="Nizhny Novgorod Stadium" title="" href="#" shape="poly" coords="639,140,649,161,636,181,613,179,601,158,612,139" />
+                <area alt="Nizhny Novgorod Stadium" title="" href="#" shape="poly" coords="639,140,649,161,636,181,613,179,601,158,612,139" onclick="displayVenue('venue');" />
                 <area alt="Cosmos Arena" title="" href="#" shape="poly" coords="670,274,694,273,706,296,695,318,672,317,658,296" />
                 <area alt="Kazan Arena" title="" href="#" shape="poly" coords="757,149,781,149,793,170,782,190,757,191,745,170" />
                 <area alt="Central Stadium" title="" href="#" shape="poly" coords="965,131,988,133,1001,154,989,175,962,175,950,154" />
@@ -121,10 +123,10 @@
                 <area alt="Kaliningrad Stadium" title="" href="#" shape="poly" coords="109,229,135,228,149,254,136,273,109,273,97,250" />
             </map>
         </div>
-        <div id="Spartak" class="model">
+        <div id="venue" class="model">
             <div class="model-content">
-                <header></header>
-                <p></p>
+                <p>HAi</p>
+            
                 
             </div>
         </div>
